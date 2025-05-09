@@ -1,0 +1,23 @@
+// Prompt:
+
+Create a **Drag-and-Drop Website Builder Prototype using Angular**.
+
+Requirements:
+1. Use **Angular (latest stable version)** with **TypeScript** and **Angular CLI**.
+2. Build a **sidebar** with draggable components: **Text, Image, Button**.
+3. Implement a **canvas/workspace area** where users can **drop and position** these elements.
+4. When an element is selected on the canvas, display a **properties form** to update its content:
+   - Text: edit text content, font size, and color.
+   - Image: edit image URL, width, and height.
+   - Button: edit label and link URL.
+5. Ensure the layout is **responsive** using **SCSS or Tailwind CSS**.
+6. Use Angular-compatible **drag-and-drop library** such as `@angular/cdk/drag-drop`.
+7. Use **Angular services** or **RxJS** for state management if needed.
+8. Organize project with a modular structure: `/components`, `/services`, `/models`.
+9. Pre-populate sidebar with a few default element types for demo.
+10. Include a `README.md` or comment-based documentation that explains:
+    - Tools & libraries used
+    - Folder structure
+    - How the app supports scalability (e.g., saving layout, more components)
+
+Start by scaffolding an Angular app, installing required packages, and building the drag-drop layout structure.
